@@ -22,13 +22,13 @@
 		319BC4E526AB67E9004FBB20 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC4E426AB67E9004FBB20 /* SettingsVC.swift */; };
 		319BC4E826AB681A004FBB20 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC4E726AB681A004FBB20 /* TabBarVC.swift */; };
 		319BC4ED26AB6888004FBB20 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC4EC26AB6888004FBB20 /* PostVC.swift */; };
-		319BC4F126AB68A0004FBB20 /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC4F026AB68A0004FBB20 /* ApiCaller.swift */; };
 		319BC4F426AB68B1004FBB20 /* StoragerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC4F326AB68B1004FBB20 /* StoragerManager.swift */; };
 		319BC4F726AB68C1004FBB20 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC4F626AB68C1004FBB20 /* DBManager.swift */; };
 		319BC4FA26AB68CB004FBB20 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC4F926AB68CB004FBB20 /* AuthManager.swift */; };
 		319BC4FD26AB68EB004FBB20 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC4FC26AB68EB004FBB20 /* HapticsManager.swift */; };
 		319BC51526AB7D39004FBB20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 319BC51426AB7D39004FBB20 /* GoogleService-Info.plist */; };
 		319BC51D26AC81B5004FBB20 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC51C26AC81B5004FBB20 /* Constants.swift */; };
+		319BC53726AF431D004FBB20 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC53626AF431D004FBB20 /* Extension+UIView.swift */; };
 		47840F24996AE1D420E89D97 /* Pods_TikTokReplica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AE5D7DC8330B9C7C1C4191 /* Pods_TikTokReplica.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,13 +50,13 @@
 		319BC4E426AB67E9004FBB20 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		319BC4E726AB681A004FBB20 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		319BC4EC26AB6888004FBB20 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
-		319BC4F026AB68A0004FBB20 /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
 		319BC4F326AB68B1004FBB20 /* StoragerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoragerManager.swift; sourceTree = "<group>"; };
 		319BC4F626AB68C1004FBB20 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		319BC4F926AB68CB004FBB20 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		319BC4FC26AB68EB004FBB20 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		319BC51426AB7D39004FBB20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		319BC51C26AC81B5004FBB20 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		319BC53626AF431D004FBB20 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		47AE5D7DC8330B9C7C1C4191 /* Pods_TikTokReplica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TikTokReplica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		759244E9C72F1FF5601E89B7 /* Pods-TikTokReplica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTokReplica.release.xcconfig"; path = "Target Support Files/Pods-TikTokReplica/Pods-TikTokReplica.release.xcconfig"; sourceTree = "<group>"; };
 		902C9C01C91F95516D1CD309 /* Pods-TikTokReplica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTokReplica.debug.xcconfig"; path = "Target Support Files/Pods-TikTokReplica/Pods-TikTokReplica.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +117,7 @@
 		319BC4C626AB6449004FBB20 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				319BC53526AF4306004FBB20 /* Extension */,
 				3125503426979F5B0031C0F8 /* Assets.xcassets */,
 				3125502B26979F590031C0F8 /* AppDelegate.swift */,
 				319BC51426AB7D39004FBB20 /* GoogleService-Info.plist */,
@@ -153,7 +154,6 @@
 		319BC4CA26AB64CC004FBB20 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				319BC4F026AB68A0004FBB20 /* ApiCaller.swift */,
 				319BC4F326AB68B1004FBB20 /* StoragerManager.swift */,
 				319BC4F626AB68C1004FBB20 /* DBManager.swift */,
 				319BC4F926AB68CB004FBB20 /* AuthManager.swift */,
@@ -208,6 +208,14 @@
 				319BC51C26AC81B5004FBB20 /* Constants.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		319BC53526AF4306004FBB20 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				319BC53626AF431D004FBB20 /* Extension+UIView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		AA705A40AAEC72B114142912 /* Pods */ = {
@@ -364,8 +372,8 @@
 				3125502C26979F590031C0F8 /* AppDelegate.swift in Sources */,
 				319BC4D326AB671B004FBB20 /* CameraVC.swift in Sources */,
 				319BC4CF26AB66FE004FBB20 /* ExploreVC.swift in Sources */,
-				319BC4F126AB68A0004FBB20 /* ApiCaller.swift in Sources */,
 				319BC4F726AB68C1004FBB20 /* DBManager.swift in Sources */,
+				319BC53726AF431D004FBB20 /* Extension+UIView.swift in Sources */,
 				3125502E26979F590031C0F8 /* SceneDelegate.swift in Sources */,
 				319BC4E226AB67CE004FBB20 /* SignUpVC.swift in Sources */,
 				319BC4E826AB681A004FBB20 /* TabBarVC.swift in Sources */,
